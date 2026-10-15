@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from .models import Group, Post, Comment
+from .models import Group, Post
 from django.shortcuts import get_object_or_404
 from .serializers import GroupSerializer, PostSerializer, CommentSerializer
 from rest_framework.exceptions import PermissionDenied
